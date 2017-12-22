@@ -1,4 +1,3 @@
-# Please copy/paste all three classes into this file to submit your solution!
 class Customer
   attr_accessor :first_name, :last_name
 
@@ -14,11 +13,9 @@ class Customer
     @@all
   end
 
-  def self.find_by_name(name)
-    first_name = name.split[0]
-    last_name = name.split[1]
+  def self.find_by_name(full_name)
     self.all.find do |customer|
-      (customer.first_name == first_name) && (customer.last_name == last_name)
+      (customer.first_name == full_name.split[0]) && (customer.last_name == full_name.split[1])
     end
   end
 
@@ -30,7 +27,7 @@ class Customer
 
   def self.all_names
     self.all.map do |customer|
-      customer.first_name + " " + customer.last_name
+      customer.full_name
     end
   end
 
@@ -45,7 +42,6 @@ end
 
 class Restaurant
   attr_accessor :name
-  attr_writer :reviews, :customers
 
   @@all = []
 
