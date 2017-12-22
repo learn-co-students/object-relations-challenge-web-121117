@@ -25,33 +25,33 @@ We've provided you with a console that you can use to test your code. To enter a
 ## Deliverables
 
 Build the following methods on the customer class
-+ Customer.all
++ Customer.all - done
   + should return all of the customers
-+ Customer.find_by_name(name)
++ Customer.find_by_name(name) - done
   + given a string of a full name, returns the first customer whose full name matches
-+ Customer.find_all_by_first_name(name)
++ Customer.find_all_by_first_name(name) -done
   + given a string of a first name, returns an array containing all customers with that first name
-+ Customer.all_names
++ Customer.all_names - done
   + should return an array of all of the customer full names
-+ Customer#add_review(restaurant, content)
++ Customer#add_review(restaurant, content) - done
   + given some content and a restaurant, creates a new review and associates it with that customer and that restaurant
 
 Build out the following methods on the Review class
 
-+ Review.all
++ Review.all - done
   + returns all of the reviews
-+ Review#customer
++ Review#customer - done
   + returns the customer for that given review
-+ Review#restaurant
++ Review#restaurant - done
   + returns the restaurant for that given review
 
 Build out the following methods on the restaurant class
 
-+ Restaurant.all
++ Restaurant.all - done
   + returns an array of all restaurants
-+ Restaurant.find_by_name(name)
++ Restaurant.find_by_name(name) - done
   + given a string of restaurant name, returns the first restaurant that matches
-+ Restaurant#reviews
++ Restaurant#reviews - done
   + returns an array of all reviews for that restaurant
-+ Restaurant#customers
++ Restaurant#customers -done
   + should return all of the customers who have written reviews of that restaurant.
