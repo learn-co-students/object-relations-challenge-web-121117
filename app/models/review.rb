@@ -1,5 +1,5 @@
 class Review
-  attr_reader :customer, :restaurant, :reviews
+  attr_reader :customer, :restaurant
   attr_accessor :content
 
   @@all = []

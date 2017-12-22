@@ -1,5 +1,5 @@
 class Restaurant
-  attr_accessor :name, :reviews
+  attr_accessor :name
 
   @@all = []
 
