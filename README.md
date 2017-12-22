@@ -20,14 +20,14 @@ Your goal is to build out all of the methods listed in the deliverables. Do your
 
 We've provided you with a console that you can use to test your code. To enter a console session, run `ruby tools/console.rb`. You'll be able to test out the methods that you write here.
 
-**To Submit** - once you've completed all the deliverables, please copy/paste your three class definitions into the `solution.rb`  file. Please don't submit the lab until we give you the signal. 
+**To Submit** - once you've completed all the deliverables, please copy/paste your three class definitions into the `solution.rb`  file. Please don't submit the lab until we give you the signal.
 
 ## Deliverables
 
 Build the following methods on the customer class
 + Customer.all
-  + should return all of the customers
-+ Customer.find_by_name(name)
+  + should return all of the customers DONE
++ Customer.find_by_name(name) DOUBLE CHECK
   + given a string of a full name, returns the first customer whose full name matches
 + Customer.find_all_by_first_name(name)
   + given a string of a first name, returns an array containing all customers with that first name
