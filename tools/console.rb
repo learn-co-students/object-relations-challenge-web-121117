@@ -5,6 +5,8 @@ def reload
 end
 
 tania = Customer.new("tania", "aparicio")
+tania1 = Customer.new("tania", "aparicio")
+tania2 = Customer.new("tania", "aparicio")
 han = Customer.new("han", "solo")
 luke = Customer.new("luke", "skywalker")
 han2 = Customer.new("han", "skywalker")
