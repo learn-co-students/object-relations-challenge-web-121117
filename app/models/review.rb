@@ -1,12 +1,21 @@
+## Review.all
+## returns all of the reviews
+
+# Review#customer
+# returns the customer for that given review
+
+# Review#restaurant
+# returns the restaurant for that given review
+
 class Review
 
-  attr_accessor :restaurant, :content, :customer
+  attr_accessor :customer, :restaurant, :content
   @@all = []
 
-  def initialize(restaurant, content, customer)
+  def initialize(restaurant, customer, content)
     @restaurant = restaurant
-    @content = content
     @customer = customer
+    @content = content
     @@all << self
   end
 
@@ -14,12 +23,5 @@ class Review
     @@all
   end
 
-  def customer
-    self.customer
-  end
-
-  def restaurant
-    self.restaurant  
-  end
 
 end
